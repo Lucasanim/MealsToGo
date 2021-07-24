@@ -1,0 +1,14 @@
+Web / API server started at localhost:4000
+/home/lvu/.nvm/versions/node/v14.17.2/bin/node[33745]: ../src/node.cc:742:void node::ResetStdio(): Assertion `!(err != 0) || (err == -1 && (*__errno_location ()) == 1)' failed.
+ 1: 0xa24ed0 node::Abort() [/home/lvu/.nvm/versions/node/v14.17.2/bin/node]
+ 2: 0xa24f4e  [/home/lvu/.nvm/versions/node/v14.17.2/bin/node]
+ 3: 0x9ef984 node::ResetStdio() [/home/lvu/.nvm/versions/node/v14.17.2/bin/node]
+ 4: 0x9efa40 node::SignalExit(int, siginfo_t*, void*) [/home/lvu/.nvm/versions/node/v14.17.2/bin/node]
+ 5: 0x7f76fb96d3c0  [/lib/x86_64-linux-gnu/libpthread.so.0]
+ 6: 0x7f76fb8885ce epoll_wait [/lib/x86_64-linux-gnu/libc.so.6]
+ 7: 0x13b41f4  [/home/lvu/.nvm/versions/node/v14.17.2/bin/node]
+ 8: 0x13a19e8 uv_run [/home/lvu/.nvm/versions/node/v14.17.2/bin/node]
+ 9: 0xa65504 node::NodeMainInstance::Run() [/home/lvu/.nvm/versions/node/v14.17.2/bin/node]
+10: 0x9f3745 node::Start(int, char**) [/home/lvu/.nvm/versions/node/v14.17.2/bin/node]
+11: 0x7f76fb78d0b3 __libc_start_main [/lib/x86_64-linux-gnu/libc.so.6]
+12: 0x98293c  [/home/lvu/.nvm/versions/node/v14.17.2/bin/node]
